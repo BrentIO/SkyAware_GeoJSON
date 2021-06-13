@@ -21,3 +21,10 @@ Copy the new layers file into the SkyAware directory
 
 You MUST configure the settings.json file with a lat/long, at a minimum.  The default lat/long are set for the White House, Washington, DC.
 
+## Downloading Datasets
+
+Datasets can be downloaded from https://adds-faa.opendata.arcgis.com/search?collection=Dataset:
+- Runways
+- ATS Route
+- Class Airspace
+- Designated Point
