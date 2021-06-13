@@ -1,0 +1,42 @@
+{
+    "outputPath" : "/usr/share/skyaware/html/geojson",
+    "center": {
+        "latitude": 38.897646657458154,
+        "longitude": -77.0364776408442,
+        "buffer": 0.75
+    },
+    "runways": {
+        "minimumLength": 100,
+        "helipads": false,
+        "extendedCenterlineLengthKM" : 16,
+        "properties": [
+            "DESIGNATOR",
+            "LENGTH",
+            "WIDTH"
+        ]
+    },
+    "class_airspace": {
+        "classes": [
+            "CLASS_B",
+            "CLASS_C",
+            "CLASS_D"
+        ],
+        "properties": [
+            "NAME",
+            "ICAO_ID",
+            "UPPER_VAL",
+            "LOWER_VAL",
+            "LOCAL_TYPE"
+        ]
+    },
+    "designated_points": {
+        "properties": [
+            "IDENT"
+        ]
+    },
+    "ats_route": {
+        "properties": [
+            "IDENT"
+        ]
+    }
+}
